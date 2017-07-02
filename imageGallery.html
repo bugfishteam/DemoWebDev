@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Need our css after Bootstrap to 'be the last word' -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="imageGallery.css">
+
+</head>
+<body>
+
+	<!-- Homemade Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<!-- Want container inside of navbar to restrict links within, not the navbar itself -->
+		<div class="container">  
+			<div class="navbar-header">
+				<!-- Creates hamburger, targets items via id -->
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+				    <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+				<!-- The brand - icon and link to homepage -->
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> MentrLabs</a>
+			</div>
+			<!-- This id collapses into hamburger -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>
+			<!-- Switching Bootstrap camera for Font awesome camera -->
+			<!-- <span class="glyphicon glyphicon-camera" aria-hidden="true"></span> -->
+			<i class="fa fa-camera-retro"></i>
+			 The Image Gallery
+			</h1>
+			<p>Some text under the big bertha heading</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+				<img src="https://source.unsplash.com/Z9S1EPL0QlI">
+				Some text
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background-color: #2c3e50;
+}
+
+/*Need this vs. 'a' selector since below is more specific (mult classes > tag)*/
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+/*Same idea here, targeting the right classes via selectors*/
+.navbar-inverse .navbar-brand {
+	color: white;
+}
